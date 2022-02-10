@@ -1,0 +1,21 @@
+// AreaTrianguloCLASS.cpp : Defines the entry point for the console application.
+
+#include "stdafx.h"
+#include<iostream>
+#include"conio.h"
+#include"Rectangulo.h"
+
+using namespace std;
+
+void main ()
+{
+	float b,h,area;
+	Rectangulo recta;
+	cout<<"Ingrese la base : ";
+	cin>>b;
+	cout<<"Ingrese la altura : ";
+	cin>>h;
+	area=recta.calculararea(b,h);
+	cout<<"El area es : "<<area;
+	getch();
+}
