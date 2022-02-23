@@ -1,0 +1,9 @@
+# 2.	Escribir un programa que lea un entero positivo, ,
+# introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta .
+numero=int(input("Ingrese un numero : "))
+suma=0
+for i in range (numero):
+    suma=i+suma
+    
+print("La suma de todos los numeros enteros desde 1 hasta ", numero," es :",suma)
+           
