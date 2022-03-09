@@ -1,0 +1,7 @@
+i=0
+n=int(input("Ingrese cuantos numeros va a tener la lista : "))
+lista = []
+for i in range (n):
+    lista.append(int(input("Ingrese un numero : ")))
+lista.sort()
+print("Los numeros ganadores son : " + str(lista))
