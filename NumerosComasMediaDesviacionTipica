@@ -1,0 +1,13 @@
+lista2=input("Ingrese una lista de numeros separados por coma : ")
+lista2=lista2.split(',')
+suma=0
+sumsq=0
+for i in lista2:
+    suma=suma+int(i)
+    sumsq += int(i)**2
+    
+n=suma/len(lista2)
+x=suma/n
+stdev=(sumsq/n-x**2)**(1/2)
+print("La media es : ",x)
+print("La desviacion tipica es : ", stdev)
