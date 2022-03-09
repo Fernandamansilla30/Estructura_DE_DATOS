@@ -1,0 +1,8 @@
+notas=[100,84,95,70,51]
+suma=0
+for i in range (len(notas)):
+    suma=suma+notas[i]
+promedio=suma/len(notas)
+print("El promedio es : ", promedio)   
+    
+    
