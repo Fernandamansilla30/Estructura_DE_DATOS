@@ -1,0 +1,27 @@
+Cola=[]
+Pila=[]
+Pila.append("lunes")
+Pila.append("martes")
+Pila.append("miercoles")
+Pila.append("jueves")
+Pila.append("viernes")
+Pila.append("sabado")
+Pila.append("domingo")
+print(Pila)
+#Sacar elementos - pop - desapilar
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+x=Pila.pop()
+Cola.append(x)
+
+print(Cola)
