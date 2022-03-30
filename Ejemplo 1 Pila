@@ -1,0 +1,9 @@
+#Ejemplo de pila
+Pila=[]
+#Incluir elemento - push - apilar
+Pila.append("c")
+Pila.append("a")
+print(Pila)
+#Sacar elementos - pop - desapilar
+x=Pila.pop()
+print(Pila)
