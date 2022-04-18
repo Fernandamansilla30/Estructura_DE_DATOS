@@ -1,0 +1,57 @@
+#Crear un programa que utilice clase para una estructura de datos:
+#cola con el siguiente menu
+#1. Añadir numero a la estructura de datos, me pide un numero de la estructura de datos y lo adiciona a la estructura de datos
+#2. Cargar los elementos de la estructura de datos con numeros IMPARES
+#3. Mostrar la cantidad de elementos de la misma
+
+class Cola:
+    def _inint_ (self):
+        self.items=[]
+    def encolar(self,x):
+        self.items.append(x)
+    def desencolar(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola esta vacìa ")
+    def esta_vacia(self):
+        return self.items==[]
+    
+    def esImpar(self,x):
+        if(x % 2 ! = 0):
+            c.encolar(x)
+    
+    def mostrarCola(self,x):
+        
+        
+    
+
+i=0
+
+c=Cola()
+c.encolar(1)
+c.encolar(3)
+c.encolar(5)
+c.encolar(7)
+c.encolar(9)
+for i in range(i):
+    
+op=" "
+while op!="s" and op!="S":
+    print("-----------------------------------------")
+    print("MENU")
+    print("1. Añadir numero a la estrucutra de datos")
+    print("2. Cargar elementos")
+    print("3. Mostrar la cantidad de elementos")
+    print("Salir")
+    print("NOTA: los numeros deben ser impares")
+    op=input("Ingrese una opcion : ")
+    if op=="1":
+        n=int(input("Ingrese un numero : ")
+              c.encolar(n)
+    elif op=="2":
+        encolar(self,x)
+    elif op=="3":
+        
+    else op=="s" or op=="S":
+         print("FIN DEL PROGRAMA")
