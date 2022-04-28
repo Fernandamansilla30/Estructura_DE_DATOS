@@ -1,0 +1,14 @@
+import os
+
+print("CREE SU USUARIO")
+print("================")
+
+NOMBRE_ARCHIVO="user.txt"
+user=open(NOMBRE_ARCHIVO,"w")
+user.write("Maria Perez maria.p.com 12345M\n")
+user.write("Laura Cortez laura.co.com trabajo5 trabajo5\n")
+user.write("Nicolas Añez nico.añez.com NicoA NicoA\n")
+user.write(" Pedro Rojas prj.com ppp000 ppp000\n")
+user.write("Jose Marcus josemarcus.com jMARCUS jMARCUS\n")
+user.close()
+
